@@ -16,7 +16,6 @@ public class Serialization {
         employee.age = "23";
 
         try {
-
             FileOutputStream fileOutputStream = new FileOutputStream("employee.ser");
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
             objectOutputStream.writeObject(employee);
