@@ -1,5 +1,6 @@
 === Serializable And Deserializable ===
 
+
 ++ What is Serialization? ++
 
 Serialization involves converting an object from its in-memory state into a format that can be easily stored or transmitted. This format could be a byte stream (as in Java's ObjectOutputStream), JSON (JavaScript Object Notation), XML (eXtensible Markup Language), or other serialized formats. The key purpose of serialization is to flatten the complex structure of an object into a linear stream of bytes or textual representation that can be easily saved to disk, sent over a network, or persisted in a database. This enables the object's state to be preserved beyond the current execution of the program.
@@ -10,7 +11,7 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 ++ Benefits of Serialization & Deserialization ++
 
-1.Persistence: Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
+1.Persistence: `Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
 
 2.Communication: Data can be transmitted between different parts of a program, different programs, or different systems, especially over a network.
 
@@ -19,6 +20,11 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 4.Interoperability: Data can be exchanged between different programming languages and systems by using standard serialization formats like JSON or XML.
 
 5.Logging and Debugging: Serialized data can be logged for debugging and analysis.
+
+++ Differences Between Serialization and Deserialization in Java ++
+
+![1565793481245](https://github.com/user-attachments/assets/1d03b9d2-5b5e-4ca0-92f5-9c2b6a0dc86e)
+
 
 ++ Mechanism ++
 
