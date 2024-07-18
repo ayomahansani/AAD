@@ -9,6 +9,9 @@ Serialization involves converting an object from its in-memory state into a form
 
 Deserialization, on the other hand, is the reverse process of serialization. It involves reconstructing an object from its serialized format back into its original in- memory state. Deserialization is crucial for retrieving and restoring previously serialized data, allowing applications to recreate objects and resume operations from a persisted state. This process typically involves reading the serialized data (byte stream, JSON, XML) from storage or a network stream and using specialized libraries or frameworks to convert it back into an object instance that can be manipulated within the application.
 
+![deserialization-diagram](https://github.com/user-attachments/assets/cea7ca5e-6333-48a8-a7a0-128676610d18)
+
+
 ++ Benefits of Serialization & Deserialization ++
 
 1.Persistence: `Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
@@ -23,7 +26,6 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 ++ Differences Between Serialization and Deserialization in Java ++
 
-![deserialization-diagram](https://github.com/user-attachments/assets/cea7ca5e-6333-48a8-a7a0-128676610d18)
 
 
 ++ Mechanism ++
