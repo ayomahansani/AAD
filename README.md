@@ -23,7 +23,7 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 ++ Differences Between Serialization and Deserialization in Java ++
 
-![1565793481245](https://github.com/user-attachments/assets/1d03b9d2-5b5e-4ca0-92f5-9c2b6a0dc86e)
+![deserialization-diagram](https://github.com/user-attachments/assets/cea7ca5e-6333-48a8-a7a0-128676610d18)
 
 
 ++ Mechanism ++
