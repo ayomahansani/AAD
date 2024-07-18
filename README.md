@@ -11,7 +11,6 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 ![deserialization-diagram](https://github.com/user-attachments/assets/cea7ca5e-6333-48a8-a7a0-128676610d18)
 
-
 ++ Benefits of Serialization & Deserialization ++
 
 1.Persistence: `Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
@@ -26,7 +25,17 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 ++ Differences Between Serialization and Deserialization in Java ++
 
+1.Serialization:
 
+Serialization is the mechanism of conversion of an object to a stream of bytes.
+It helps to write byte stream to file,db, etc.
+It is performed with the help of the ObjectOutputStream Class.
+
+2.Deserialization:
+
+Deserialization helps to convert the stream of objects to the original state of the object.
+It helps to read byte stream from file, db, etc.
+It is performed with the help of the ObjectInputStream class.
 
 ++ Mechanism ++
 
