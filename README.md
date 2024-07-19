@@ -16,15 +16,15 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 === Benefits of Serialization & Deserialization  ===
 =
 
-1.Persistence: `Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
+* Persistence: `Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
 
-2.Communication: Data can be transmitted between different parts of a program, different programs, or different systems, especially over a network.
+* Communication: Data can be transmitted between different parts of a program, different programs, or different systems, especially over a network.
 
-3.Caching: Serialized objects can be stored in cache systems (like Redis) to improve performance.
+* Caching: Serialized objects can be stored in cache systems (like Redis) to improve performance.
 
-4.Interoperability: Data can be exchanged between different programming languages and systems by using standard serialization formats like JSON or XML.
+* Interoperability: Data can be exchanged between different programming languages and systems by using standard serialization formats like JSON or XML.
 
-5.Logging and Debugging: Serialized data can be logged for debugging and analysis.
+* Logging and Debugging: Serialized data can be logged for debugging and analysis.
 
 = Differences Between Serialization and Deserialization =
 =
