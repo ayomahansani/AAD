@@ -13,7 +13,7 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 ![deserialization-diagram](https://github.com/user-attachments/assets/cea7ca5e-6333-48a8-a7a0-128676610d18)
 
-== Benefits of Serialization & Deserialization  ==
+=== Benefits of Serialization & Deserialization  ===
 =
 
 1.Persistence: `Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
@@ -26,7 +26,8 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 5.Logging and Debugging: Serialized data can be logged for debugging and analysis.
 
-============= Differences Between Serialization and Deserialization in Java  =============
+=== Differences Between Serialization and Deserialization in Java  ===
+=
 
 1.Serialization:
 
@@ -40,7 +41,8 @@ Deserialization helps to convert the stream of objects to the original state of 
 It helps to read byte stream from file, db, etc.
 It is performed with the help of the ObjectInputStream class.
 
-=====================  Mechanism  =====================
+===  Mechanism  ===
+=
 
 The mechanism of serialization and deserialization in Java involves the Serializable interface and the ObjectOutputStream and ObjectInputStream classes.
 
@@ -55,7 +57,8 @@ Fields marked as transient are not serialized.
 The byte stream is converted back into an object using the ObjectInputStream class.
 The deserialization process reconstructs the object, including its non-transient fields.
 
-==========================  Code Explanation  ==========================
+===  Code Explanation  ===
+=
 
 In the provided Java code, serialization and deserialization mechanisms are employed to effectively manage `Employee` object data across different runtime scenarios.
 Serialization begins with the instantiation of an `Employee` object initialized with specific attributes such as `id`, `name`, `address`, and `age` within the `Serialization` class. This object is then serialized using an `ObjectOutputStream`, converting its state into a byte stream representation. The serialized data is subsequently written to a file named `employee.ser` via a `FileOutputStream`. This process ensures that the object's complete state is captured and stored persistently, facilitating data storage and transfer across executions or systems.
