@@ -6,13 +6,13 @@ Serializable And Deserializable
 
 Serialization involves converting an object from its in-memory state into a format that can be easily stored or transmitted. This format could be a byte stream (as in Java's ObjectOutputStream), JSON (JavaScript Object Notation), XML (eXtensible Markup Language), or other serialized formats. The key purpose of serialization is to flatten the complex structure of an object into a linear stream of bytes or textual representation that can be easily saved to disk, sent over a network, or persisted in a database. This enables the object's state to be preserved beyond the current execution of the program.
 
-============================== What is Deserialization? ==============================
+============================ What is Deserialization? ============================
 
 Deserialization, on the other hand, is the reverse process of serialization. It involves reconstructing an object from its serialized format back into its original in- memory state. Deserialization is crucial for retrieving and restoring previously serialized data, allowing applications to recreate objects and resume operations from a persisted state. This process typically involves reading the serialized data (byte stream, JSON, XML) from storage or a network stream and using specialized libraries or frameworks to convert it back into an object instance that can be manipulated within the application.
 
 ![deserialization-diagram](https://github.com/user-attachments/assets/cea7ca5e-6333-48a8-a7a0-128676610d18)
 
-================================================= Benefits of Serialization & Deserialization =================================================
+========== Benefits of Serialization & Deserialization ==========
 
 1.Persistence: `Objects can be stored in files, databases, or other storage media and retrieved later in their original state.
 
@@ -24,7 +24,7 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 5.Logging and Debugging: Serialized data can be logged for debugging and analysis.
 
-================================= Differences Between Serialization and Deserialization in Java =================================
+========== Differences Between Serialization and Deserialization in Java ==========
 
 1.Serialization:
 
@@ -38,7 +38,7 @@ Deserialization helps to convert the stream of objects to the original state of 
 It helps to read byte stream from file, db, etc.
 It is performed with the help of the ObjectInputStream class.
 
-=============== Mechanism ===============
+================== Mechanism ==================
 
 The mechanism of serialization and deserialization in Java involves the Serializable interface and the ObjectOutputStream and ObjectInputStream classes.
 
