@@ -2,9 +2,7 @@
 ========== Serializable And Deserializable ==========
 =====================================================
 
-============================
-++ What is Serialization? ++
-============================
+============================ What is Serialization? ============================
 
 Serialization involves converting an object from its in-memory state into a format that can be easily stored or transmitted. This format could be a byte stream (as in Java's ObjectOutputStream), JSON (JavaScript Object Notation), XML (eXtensible Markup Language), or other serialized formats. The key purpose of serialization is to flatten the complex structure of an object into a linear stream of bytes or textual representation that can be easily saved to disk, sent over a network, or persisted in a database. This enables the object's state to be preserved beyond the current execution of the program.
 
