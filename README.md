@@ -26,7 +26,7 @@ Deserialization, on the other hand, is the reverse process of serialization. It 
 
 5.Logging and Debugging: Serialized data can be logged for debugging and analysis.
 
-=== Differences Between Serialization and Deserialization ===
+= Differences Between Serialization and Deserialization =
 =
 
 1.Serialization:
